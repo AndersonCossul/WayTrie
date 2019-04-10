@@ -12,4 +12,8 @@ public interface TrieADT<V> {
 	public void delete(String key);
 
 	public Iterable<String> keysWithPrefix(String prefix);
+	
+	public int countKeysWithPrefix(String prefix);
+	
+	public String longestPrefixOf(String key);
 }

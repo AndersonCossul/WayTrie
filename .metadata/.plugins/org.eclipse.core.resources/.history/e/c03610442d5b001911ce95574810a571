@@ -1,0 +1,19 @@
+package br.com.unisinos.extruturasdados1.tga;
+
+public class Main {
+
+	public static void main(String[] args) {
+		WayTrie trie = new WayTrie<String>();
+		trie.insert("foi", "foi no passado");
+		trie.insert("fora", "fora");
+		trie.insert("fui", "fui");
+		trie.insert("vai", "vai");
+		trie.insert("ver", "ver");
+		trie.insert("veremos", "veremos");
+		trie.insert("vi", "vi");
+		trie.insert("viu", "viu");
+		trie.insert("vimos", "vimos");
+		
+		System.out.println(trie.search("foi"));
+	}
+}

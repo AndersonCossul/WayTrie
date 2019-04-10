@@ -100,4 +100,16 @@ public class TernaryTrie<V> implements TrieADT<V> {
 
 	}
 
+	@Override
+	public int countKeysWithPrefix(String prefix) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String longestPrefixOf(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
